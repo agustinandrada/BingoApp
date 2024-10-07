@@ -54,6 +54,7 @@ Para crear el ejecutable, usa el siguiente comando
 ```bash
   npx electron-packager . mi-app-electron --platform=win32 --arch=x64 --out=build --overwrite
 ```
+Una vez corrido este codigo se generará una carpeta llamada build, dentro de esta habra un ejecutable, ese es el programa. Hacer zoom hasta que encaje en la pantalla y apretar f11 para usar en pantalla completa
 
 ## Roadmap
 
