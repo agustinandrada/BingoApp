@@ -39,50 +39,21 @@ Efectos Visuales: Modales personalizados para mejorar la experiencia del usuario
 - Git
 
 ### Installation
+
+Instala las dependencias
 ```bash
   npm i
 ```
 
+Intala el empaquetador Electron Packager
 ```bash
-  npm start
+  npm install electron-packager --save-dev
 ```
 
-
-
-    
-## Run Locally
-
-Clone the project
-
+Para crear el ejecutable, usa el siguiente comando
 ```bash
-  git clone https://github.com/agustinandrada/IngresoDomselaar.git
+  npx electron-packager . mi-app-electron --platform=win32 --arch=x64 --out=build --overwrite
 ```
-
-Go to the project directory
-
-```bash
-  cd IngresoDomselaar
-```
-
-Install dependencies
-
-```bash
-  npm install
-  composer install
-```
-
-Create Database and make migrations
-
-```bash
-  php artisan migrate --seed
-```
-
-Start the server
-
-```bash
-  php artisan serve
-```
-
 
 ## Roadmap
 
